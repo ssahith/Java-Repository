@@ -1,0 +1,20 @@
+package MyMath;
+
+import java.util.Scanner;
+
+public class PrimeNumber {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter a number ");
+		
+		
+		int number = sc.nextInt();
+		
+		if(number%2==0 || number%11==0 || number%3==0 || number%7==0 || number%13==0 || number%5==0 || number%17==0 || number%19==0 || number%23==0 || number%29==0 || number%31==0 || number%37==0 || number%41==0 || number%43==0 || number%47==0 || number%49==0 || number%53==0 || number%59==0)
+			System.out.print(number + " is not prime");
+		else
+			System.out.print(number + " is prime");
+	}
+}
