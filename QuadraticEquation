@@ -21,5 +21,6 @@ public class QuadraticEquation {
 		int t = (int) (-b + Math.sqrt(s));
 		int x = a*t/2;
 		System.out.println("x = " + x);
+		System.out.println("x = " + -1*x);
 	}
 }
